@@ -86,7 +86,7 @@ html,body{
 	          width: 45vw;
 	          height: 36rem;
 	          display: inline-block;
-	          
+	         
 	          padding-left: 0rem;
               
 }
@@ -94,8 +94,8 @@ html,body{
 	          width: 45vw;
 	          height: 36rem;
 	          display: inline-block;
-	          margin-left: 6vw;
-	          margin-top: -0em;
+	          padding-left: 0rem;
+	          margin-top: 5rem;
 	          
 
 }
@@ -210,19 +210,18 @@ html,body{
 /* Syle images */
 #Coord-0{
 	     margin: 0;
-	     background-image: url(nikhil.jpg);
+	     background-image: url(Coord-0.jpg);
          height: 25rem;
          width: 25rem;
          border-radius: 50%;
-		 border: 0.35rem dashed rgb(80,80,80);
+		 border: 0.6rem solid rgb(254,156,1);
+         background-size: 100% 100%;
          margin: auto;
-		 transition: 0.3s ease 0.075s;
+		 transition: 0.3s ease ;
          vertical-align: middle;
 		 position: relative;
 		 cursor: pointer;
-         color: #3e3e3e;
 }
-
 #Coord-0:hover{
 			     border: 0.7rem solid #ff2942;
 } 
@@ -232,7 +231,7 @@ html,body{
 }
 #Coord-1{
 	     margin: 0;
-	     background-image: url('poonam.jpg');
+	     background-image: url('Coord-1.jpg');
          height: 25rem;
          width: 25rem;
          border-radius: 50%;
